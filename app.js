@@ -7,6 +7,7 @@ app.post('/', async (req, res) => {
     // Notes : chmod +x [dir]
     const dir = "[fill]/script.sh";
     shell.exec(dir);
+    res.send("Success CI/CD main");
     return;
 
 });
