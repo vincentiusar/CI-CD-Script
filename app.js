@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', async (req, res) => {
     // Notes : chmod +x [dir]
-    const dir = "";
+    const dir = "[fill]/script.sh";
     shell.exec(dir);
     return;
 });
